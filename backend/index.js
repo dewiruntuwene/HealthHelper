@@ -46,9 +46,19 @@ wss.on('connection', (ws) => {
 });
 
 app.use(cors({ origin: "*", credentials: true }));
+app.use(cors({ origin: "*", optionsSuccessStatus: 200 }));
+// Izinkan semua domain untuk sementara (debugging)
+app.use(cors());
 app.use(AiRoute);
 app.use(UserRoute);
-
+app.use((req, res, next) => {
+    // res.setHeader("Access-Control-Allow-Origin", "http://inventoryfkep-46301.portmap.io:46301");
+    res.setHeader("Access-Control-Allow-Origin", "http://localhost:5173");
+    res.setHeader("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, PATCH, OPTIONS");
+    res.setHeader("Access-Control-Allow-Headers", "X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version");
+    res.setHeader("Access-Control-Allow-Credentials", "true");
+    next();
+  });
 
 
 // Middleware untuk parsing URL-encoded data
