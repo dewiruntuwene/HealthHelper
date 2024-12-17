@@ -12,10 +12,10 @@
 Pengguna dapat bertanya seputar informasi **kesehatan**, **nutrisi**, **kalori makanan**, dan **aktivitas olahraga** melalui sistem pesan yang didukung oleh **GPT-4o**.
 
 ### 2. Food Planner 🍎  
-Pengguna dapat membuat **rencana pola makan harian atau mingguan** melalui pesan, yang nantinya akan ditampilkan di dashboard.
+Memberikan saran **rencana pola makan harian atau mingguan** melalui pesan, yang nantinya akan ditampilkan di dashboard.
 
 ### 3. Exercise Planner 🏃‍♂️  
-Pengguna bisa membuat **jadwal olahraga** yang sesuai dengan kebutuhan pribadi, yang akan tersimpan di dashboard sebagai **pengingat**.
+Memberikan saran **jadwal olahraga** yang sesuai dengan kebutuhan pribadi melalui pesan, yang akan tersimpan di dashboard sebagai **pengingat**.
 
 ### 4. Sistem Autentikasi Pengguna 🔐  
 Fitur **registrasi** dan **login** memastikan **keamanan** dan **privasi data** pengguna.
@@ -32,7 +32,7 @@ Semua **rencana pola makan** dan **jadwal olahraga** akan ditampilkan di dashboa
 - Deployment: **Vercel**  
 
 ### **Backend**  
-- Framework: **Node.js** dengan **Express.js**  
+- Framework: **Node.js** **Express.js** dengan **Prisma**  
 - Deployment: **Vercel**  
 
 ### **Database**  
