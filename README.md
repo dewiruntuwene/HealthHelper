@@ -1,6 +1,6 @@
 # 🚀 Health Helper
 
-**Health Helper** adalah sistem manajemen kesehatan modern berbasis teknologi **AI** yang membantu pengguna menjaga gaya hidup sehat. Sistem ini memungkinkan pengguna untuk berkonsultasi tentang **kesehatan**, mengelola **kalori makanan**, serta merencanakan **pola makan** dan **olahraga** dengan bantuan **LLM (Large Language Model)** berbasis **GPT-4o**.
+**Health Helper** adalah sistem manajemen kesehatan modern berbasis teknologi **AI** yang membantu pengguna menjaga gaya hidup sehat. Sistem ini memungkinkan pengguna untuk berkonsultasi tentang **kesehatan**, **kalori makanan**, serta merencanakan **pola makan** dan **olahraga** dengan bantuan **LLM (Large Language Model)** berbasis **GPT-4o**.
 
 🌐 **[Kunjungi Website Health Helper di sini](https://frontend-health-helper.vercel.app/)**  
 
