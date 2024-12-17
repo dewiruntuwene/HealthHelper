@@ -28,7 +28,7 @@ Semua **rencana pola makan** dan **jadwal olahraga** akan ditampilkan di dashboa
 ## 💻 **Teknologi yang Digunakan**
 
 ### **Frontend**  
-- Framework: **Vue.js** dengan **TypeScript**  
+- Framework: **Vue.js** **TypeScript** dengan **TaiwindCSS**  
 - Deployment: **Vercel**  
 
 ### **Backend**  
