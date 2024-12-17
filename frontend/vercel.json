@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+      { 
+        "source": "/(.*)", 
+        "destination": "https://frontend-health-helper.vercel.app/" 
+      }
+    ]
+  }
